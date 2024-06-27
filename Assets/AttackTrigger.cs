@@ -16,7 +16,7 @@ public class AttackTrigger : MonoBehaviour
 
     void AttackNow()
     {
-        charAnimator.SetTrigger("GetAttack");
+        charAnimator.SetTrigger("goAttack");
     }
     void Update()
     {
